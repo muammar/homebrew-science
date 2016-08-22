@@ -52,6 +52,7 @@ class Octave < Formula
     depends_on "automake"      => :build
     depends_on "bison"         => :build
     depends_on "icoutils"      => :build
+    depends_on "librsvg"        => :build
 
     # Fix bug #46723: retina scaling of buttons
     # see https://savannah.gnu.org/bugs/?46723
